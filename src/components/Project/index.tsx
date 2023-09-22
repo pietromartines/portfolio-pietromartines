@@ -80,14 +80,14 @@ export const Project = (): JSX.Element => {
               <ProjectLink target="_blank" href={repository.html_url}>
                 <FaGithub /> Github Code
               </ProjectLink>
-              {repository.homepage && (
+              {/* {repository.homepage && (
                 <ProjectLink
                   target="_blank"
                   href={repository.homepage}
                 >
                   <FaShare /> See demo
                 </ProjectLink>
-              )}
+              )} */}
             </ProjectLinks>
           </ProjectWrapper>
         ))}
