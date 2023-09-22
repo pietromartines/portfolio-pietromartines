@@ -54,7 +54,7 @@ export const Project = (): JSX.Element => {
               {repository.name}
             </ProjectTitle>
 
-            <ProjectStack>
+            {/* <ProjectStack>
               <Text type="body2" color="grey2">
                 Primary Language:
               </Text>
@@ -71,7 +71,7 @@ export const Project = (): JSX.Element => {
                   </Text>
                 </ProjectStackTech>
               )}
-            </ProjectStack>
+            </ProjectStack> */}
 
             <Text type="body1" color="grey2">
               {repository.description?.substring(0, 129)}
