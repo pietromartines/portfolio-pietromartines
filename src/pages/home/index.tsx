@@ -47,7 +47,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Welcome{" "}
+              Welcome{" "}
               <Text as="span" type="heading1" color="brand1">
                 to
               </Text>{" "}
@@ -58,7 +58,23 @@ export const Home = (): JSX.Element => {
               portfolio!
             </Text>
             <Text type="body1" color="grey2">
-              I am a technology enthusiast and deeply fascinated by knowledge. Welcome to my professional portfolio.
+              My name is Pietro Martines, born and raised in Campinas where he
+              has lived to this day. I am 21 years old, I have a degree in
+              Mechatronics Technician from Bento Quirino, where my passion for
+              technology and interest in programming studies arose, leading to
+              integration into the Systems Analysis and Development degree at
+              Unip. However, while I was looking for an internship, I applied
+              for an internship at Unicamp and ended up working in the Computer
+              Support area and in doing so distanced myself from the development
+              area, but the desire to specialize in this field never stopped.
+              After my training, I continued working in the Support Area at
+              CPFL, an energy company in Campinas. Shortly after my dismissal, I
+              began my search for colleges or courses that would train me as a
+              Developer and that was when I discovered Kenzie, who opened my
+              eyes to the great training opportunities she offers. Since joining
+              Kenzie, I feel that my learning is gradually evolving and I feel
+              that the Developer position is getting closer and closer. Welcome
+              to my professional portfolio.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
